@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/EmployeeManagementSystem/.vs/EmployeeManagementSystem/v16
+/EmployeeManagementSystem/.vs/EmployeeManagementSystem
+/EmployeeManagementSystem/EmployeeManagementSystem/bin/Debug/netstandard2.1
+/EmployeeManagementSystem/EmployeeManagementSystem/obj
+/EmployeeManagementSystem/EMS.Model/obj
+/EmployeeManagementSystem/EMS.Model/bin/Debug/netstandard2.0
