@@ -10,13 +10,13 @@ namespace EmployeeManagementSystem.Pages.EmployeeList
     public class EmployeeListBase:ComponentBase
     {
         protected IEnumerable<Employee> employees { get; set; }
-        protected override Task OnInitializedAsync()
+        protected override async Task OnInitializedAsync()
         {
-            LoadEmployees();
-            return base.OnInitializedAsync();
+            await Task.Run(LoadEmployees);
         }
         private void LoadEmployees()
         {
+            System.Threading.Thread.Sleep(3000);
             Employee e1 = new Employee()
             {
                 Name = "Rose",
